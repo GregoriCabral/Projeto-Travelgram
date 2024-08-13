@@ -1,0 +1,12 @@
+footer {
+    display: flex;
+    gap: 24px;
+    padding-block: 24px;
+
+    font: 14px/150% var(--font-family);
+}
+
+footer span:nth-child(1) { /*não é a contagem do elemtno espcifico (span) mas do elemento (footer)*/
+    margin-right: auto;
+}
+
