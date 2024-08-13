@@ -35,3 +35,9 @@ a:hover {
     color: var(--brand-color);
     text-decoration: underline;
 }
+
+.container {
+    padding-inline: 32px; /*Aplica valores nas laterais (na linha)*/
+    max-width: 1280px;
+    margin-inline: auto; /*Aplica valores nas laterais (na linha)*/
+}

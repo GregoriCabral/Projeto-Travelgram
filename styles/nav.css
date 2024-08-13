@@ -11,13 +11,17 @@ nav ul {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 24px;
 
-    padding-block: 8px;
+    padding-block: 8px; /*Aplica valores nas colunas (na eixo horizontal = emcim e embaico)*/
 }
 
 nav ul li:last-child img {
     width: 40px;
     height: 40px;
    /* object-fit: cover;  -significa que a imagem vai ter que preencher o spaço vazio*/
+}
+
+.bg-surface-color {
+    background-color: var(--surface-color);
 }
